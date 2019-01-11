@@ -2210,8 +2210,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #333;;
-    color: black;
+    background: #333;
+    color: white;
     position: relative;
 }
 
@@ -2222,10 +2222,9 @@ html.no-csstransitions .home-content__main {
 .about-desc {
     font-size: 2.4rem;
     line-height: 1.75;
-    text-align: center;
+    text-align: left;
     max-width: 1024px;
 }
-
 
 /* ------------------------------------------------------------------- 
  * ## about stats
