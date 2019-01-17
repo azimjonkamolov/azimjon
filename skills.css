@@ -45,22 +45,27 @@
 }
 .javascript
 {
-  width: 80%;
+  width: 85%;
   animation: javascript 2s;
+}
+.php
+{
+  width: 80%;
+  animation: php 2s;
 }
 .sql
 {
-  width: 60%;
+  width: 70%;
   animation: sql 2s;
 }
-.html5
+.html
 {
-  width: 90%;
+  width: 100%;
   animation: html5 2s;
 }
 .css
 {
-  width: 95%;
+  width: 100%;
   animation: css 2s;
 }
 
@@ -85,6 +90,18 @@
   }
   100%
   {
+    width: 85%;
+  }
+
+}
+
+@keyframes php {
+
+  0%{
+    width: 0;
+  }
+  100%
+  {
     width: 80%;
   }
 
@@ -97,19 +114,19 @@
   }
   100%
   {
-    width: 60%;
+    width: 70%;
   }
 
 }
 
-@keyframes html5 {
+@keyframes html {
 
   0%{
     width: 0;
   }
   100%
   {
-    width: 90%;
+    width: 100%;
   }
 
 }
@@ -121,11 +138,10 @@
   }
   100%
   {
-    width: 95%;
+    width: 100%;
   }
 
 }
-
 
 
 
