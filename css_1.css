@@ -1064,6 +1064,11 @@ input[type=text]:focus, input[type=password]:focus {
     font-size: 80px;
 }
 
+.size_for
+{
+    font-size: 60px;
+}
+
 
 
 
