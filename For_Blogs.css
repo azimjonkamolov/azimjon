@@ -2,16 +2,6 @@ body, html {
   height: 100%;
   margin: 0;
 }
-    .bgimg_Travels {
-  background-image: url('img/travelback.jpg');
-        height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-              }
 
     .bgimg_Books {
   background-image: url('img/booksback.jpg');
