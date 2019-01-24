@@ -25,8 +25,8 @@ body, html {
   font-size: 25px;
               }
 
-    .bgimg_Videos {
-  background-image: url('img/videoback.jpg');
+    .bgimg_Moments {
+  background-image: url('img/momentsback.jpg');
       height: 100%;
   background-position: center;
   background-size: cover;
@@ -49,17 +49,6 @@ body, html {
 
     .bgimg_WW {
   background-image: url('img/webback.jpg');
-      height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-              }
-
-    .bgimg_s {
-  background-image: url('img/musicback.jpg');
       height: 100%;
   background-position: center;
   background-size: cover;
