@@ -3,52 +3,14 @@ body, html {
   margin: 0;
 }
 
+.mheader
+{
+    background-image: url("img/travelback.JPG");
+    height: 100%
+}
+
     .bgimg_Books {
-  background-image: url('img/booksback.jpg');
-      height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-              }
-
-    .bgimg_Musics {
-  background-image: url('img/musicback.jpg');
-      height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-              }
-
-    .bgimg_Moments {
-  background-image: url('img/momentsback.jpg');
-      height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-              }
-
-    .bgimg_DS {
-  background-image: url('img/databack.jpeg');
-      height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-              }
-
-    .bgimg_WW {
-  background-image: url('img/webback.jpg');
+  background-color: wheat;
       height: 100%;
   background-position: center;
   background-size: cover;
@@ -59,7 +21,61 @@ body, html {
               }
 
     .bgimg_Travels {
-  background-image: url('img/travelback.jpg');
+  background-color: wheat;
+      height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+              }
+    .bgimg_Moments {
+  background-color: wheat;
+      height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+              }
+    .bgimg_Musics {
+  background-color: wheat;
+      height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+              }
+
+
+    .bgimg_DS {
+  background-color: wheat;
+      height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+              }
+
+    .bgimg_WW {
+  background-color: wheat;
+      height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+              }
+
+    .bgimg_Travels {
+  background-color: wheat;
       height: 100%;
   background-position: center;
   background-size: cover;
@@ -70,7 +86,7 @@ body, html {
               }
 
     .bgimg_Musics {
-  background-image: url('img/musicback.jpg');
+  background-color: wheat;
       height: 100%;
   background-position: center;
   background-size: cover;
