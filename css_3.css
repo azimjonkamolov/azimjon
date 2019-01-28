@@ -1,64 +1,4 @@
-/* =================================================================== 
- *
- *  Glint v1.0 Main Stylesheet
- *  11-20-2017
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # base style overrides
- *      ## links
- *  # typography & general theme styles
- *      ## Lists
- *      ## responsive video container
- *      ## floated image
- *      ## tables
- *      ## Spacing
- *      ## pace.js styles - minimal
- *  # preloader
- *  # forms
- *      ## style placeholder text
- *      ## change autocomplete styles in chrome
- *  # buttons
- *  # additional components
- *      ## alert box
- *      ## additional typo styles
- *      ## skillbars 
- *  # reusable and common theme styles
- *      ## display headings
- *      ## section header
- *      ## slick slider
- *  # header styles
- *      ## header logo
- *      ## main navigation 
- *      ## mobile menu toggle 
- *  # home 
- *      ## home content
- *      ## home social 
- *      ## home animations
- *  # about
- *      ## about stats
- *  # services
- *      ## services list
- *  # works
- *      ## bricks/masonry
- *  # clients
- *      ## slider
- *      ## testimonials
- *  # contact
- *      ## loader animation
- *  # footer
- *      ## footer main
- *      ## footer bottom
- *      ## go to top
- *
- *
- * =================================================================== */
-
-
-/* ===================================================================
- * # base style overrides
- *
- * ------------------------------------------------------------------- */
+/* css_3.css */
 html {
     font-size: 10px;
 }
@@ -1785,10 +1725,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: #000000;
 }
 
-
-/* ------------------------------------------------------------------- 
- * ## home content
- * ------------------------------------------------------------------- */
 .home-content {
     display: table-cell;
     width: 100%;
@@ -1849,61 +1785,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #000000;
 }
 
-/*.home-content__scroll {*/
-    /*position: absolute;*/
-    /*right: 9.5rem;*/
-    /*bottom: 8.4rem;*/
-/*}*/
-
-/*.home-content__scroll a {*/
-    /*font-family: "montserrat-semibold", sans-serif;*/
-    /*font-size: 1rem;*/
-    /*text-transform: uppercase;*/
-    /*letter-spacing: .3rem;*/
-    /*color: #FFFFFF;*/
-    /*position: relative;*/
-    /*display: inline-block;*/
-    /*line-height: 3rem;*/
-    /*padding-left: 2.5rem;*/
-/*}*/
-
-/*.home-content__scroll a::before {*/
-    /*border-bottom: 2px solid #5AA3A8;*/
-    /*border-right: 2px solid #5AA3A8;*/
-    /*content: '';*/
-    /*display: block;*/
-    /*height: 8px;*/
-    /*width: 8px;*/
-    /*margin-top: -6px;*/
-    /*pointer-events: none;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*top: 50%;*/
-    /*-webkit-transform-origin: 66% 66%;*/
-    /*-ms-transform-origin: 66% 66%;*/
-    /*transform-origin: 66% 66%;*/
-    /*-webkit-transform: rotate(45deg);*/
-    /*-ms-transform: rotate(45deg);*/
-    /*transform: rotate(45deg);*/
-    /*-webkit-transition: all 0.15s ease-in-out;*/
-    /*transition: all 0.15s ease-in-out;*/
-/*}*/
-
-/*.home-content__line {*/
-    /*display: block;*/
-    /*width: 2px;*/
-    /*height: 10.2rem;*/
-    /*!*background-color: #5AA3A8;*!*/
-    /*background-color: #5AA3A8;*/
-    /*position: absolute;*/
-    /*right: 7.2rem;*/
-    /*bottom: 0;*/
-/*}*/
-
-
-/* ------------------------------------------------------------------- 
- * ## home social 
- * ------------------------------------------------------------------- */
 .home-social {
     font-family: "montserrat-regular", sans-serif;
     list-style: none;
@@ -2058,10 +1939,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * home
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
         font-size: 6rem;
@@ -2148,12 +2025,7 @@ html.no-csstransitions .home-content__main {
     .home-social span {
         display: none;
     }
-    /*.home-content__scroll {*/
-        /*bottom: 5.4rem;*/
-    /*}*/
-    /*.home-content__line {*/
-        /*height: 7.2rem;*/
-    /*}*/
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -2201,12 +2073,6 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-
-
-/* ===================================================================
- * # about
- *
- * ------------------------------------------------------------------- */
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
@@ -2226,9 +2092,6 @@ html.no-csstransitions .home-content__main {
     max-width: 1024px;
 }
 
-/* ------------------------------------------------------------------- 
- * ## about stats
- * ------------------------------------------------------------------- */
 .about-stats {
     text-align: center;
 }
@@ -2266,21 +2129,7 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-/*.about__line {*/
-    /*display: block;*/
-    /*width: 2px;*/
-    /*height: 10.2rem;*/
-    /*background-color: #FFFFFF;*/
-    /*position: absolute;*/
-    /*right: 7.2rem;*/
-    /*top: 0;*/
-/*}*/
 
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * about
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
     .about-desc {
         font-size: 2.2rem;
@@ -2371,11 +2220,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-
-/* ===================================================================
- * # services
- *
- * ------------------------------------------------------------------- */
 .s-services {
     padding-top: 16.2rem;
     padding-bottom: 13.2rem;
@@ -2385,9 +2229,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## services list
- * ------------------------------------------------------------------- */
 .services-list {
     margin-top: 6rem;
 }
@@ -2420,10 +2261,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * services
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
     .services-list {
         max-width: 1000px;
@@ -2495,11 +2332,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-
-/* ===================================================================
- * # works
- *
- * ------------------------------------------------------------------- */
 .s-works {
     background: #FFFFFF;
     padding: 0 0 15rem 0;
@@ -2518,9 +2350,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## bricks/masonry
- * ------------------------------------------------------------------- */
 .masonry:after {
     content: "";
     display: table;
@@ -2672,8 +2501,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* on hover 
- * ----------------------------------------------- */
 .item-folio:hover .item-folio__thumb a::before {
     opacity: 1;
     visibility: visible;
@@ -2702,11 +2529,6 @@ html.no-csstransitions .home-content__main {
     transform: translate3d(0, 0, 0);
 }
 
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * works
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
     .item-folio__title, .item-folio__cat {
         font-size: 1.3rem;
@@ -2733,11 +2555,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-
-/* ===================================================================
- * # clients
- *
- * ------------------------------------------------------------------- */
 .s-clients {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
@@ -2748,9 +2565,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## slider
- * ------------------------------------------------------------------- */
+
 .clients-outer {
     margin-top: 3.6rem;
     padding-bottom: 9rem;
@@ -2771,9 +2586,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## testimonials
- * ------------------------------------------------------------------- */
 .clients-testimonials {
     margin-top: 4.2rem;
     padding-top: 7.2rem;
@@ -2869,11 +2681,6 @@ html.no-csstransitions .home-content__main {
     margin-top: -0.6px;
 }
 
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * clients
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
     .clients-testimonials .testimonials {
         margin: 0 12%;
@@ -2936,11 +2743,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-
-/* ===================================================================
- * # contact 
- *
- * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
     background-image: url("../images/contact-bg.jpg");
@@ -2998,16 +2800,6 @@ html.no-csstransitions .home-content__main {
     border-right: 5px solid #5AA3A8;
 }
 
-/*.contact__line {*/
-    /*display: block;*/
-    /*width: 2px;*/
-    /*height: 20.4rem;*/
-    /*background-color: #5AA3A8;*/
-    /*position: absolute;*/
-    /*left: 50%;*/
-    /*top: -10.2rem;*/
-    /*margin-left: -1px;*/
-/*}*/
 
 .contact-content {
     max-width: 1000px;
@@ -3179,8 +2971,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* form loader
- * ----------------------------------------------- */
 .submit-loader {
     display: none;
     position: relative;
@@ -3211,9 +3001,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* --------------------------------------------------------------- 
- * ## loader animation 
- * --------------------------------------------------------------- */
 .s-loader {
     margin: 1.2rem auto 3rem;
     width: 70px;
@@ -3270,11 +3057,6 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * contact
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
     .contact-content {
         max-width: 900px;
@@ -3334,12 +3116,6 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-
-
-/* ===================================================================
- * # footer
- *
- * ------------------------------------------------------------------- */
 footer {
     padding: 9rem 0 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -3369,10 +3145,6 @@ footer .row {
     max-width: 980px;
 }
 
-
-/* --------------------------------------------------------------- 
- * ## footer main
- * --------------------------------------------------------------- */
 .footer-main {
     text-align: left;
 }
@@ -3433,12 +3205,12 @@ footer .row {
 
 .footer-subscribe #mc-form input[type="email"]:-moz-placeholder {
     color: rgba(255, 255, 255, 0.2);
-    /* Firefox 18- */
+ 
 }
 
 .footer-subscribe #mc-form input[type="email"]::-moz-placeholder {
     color: rgba(255, 255, 255, 0.2);
-    /* Firefox 19+ */
+    
 }
 
 .footer-subscribe #mc-form input[type="email"]:-ms-input-placeholder {
@@ -3470,19 +3242,12 @@ footer .row {
     padding-right: 6px;
 }
 
-
-/* ---------------------------------------------------------------
- * ## footer bottom
- * --------------------------------------------------------------- */
 .footer-bottom {
     margin-top: 5.4rem;
     /*text-align: center;*/
     font-size: 14px;
 }
 
-/* ------------------------------------------------------------------- 
- * ## go to top
- * ------------------------------------------------------------------- */
 .go-top {
     position: fixed;
     bottom: 30px;
@@ -3510,20 +3275,6 @@ footer .row {
     transition: all 0.3s ease-in-out;
 }
 
-/*.go-top a i, .go-top a:visited i {*/
-    /*font-size: 18px;*/
-    /*line-height: inherit;*/
-/*}*/
-
-/*.go-top a:hover, .go-top a:focus {*/
-    /*color: #FFFFFF;*/
-/*}*/
-
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * footer
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
     .footer-main .left {
         padding-right: 20px;
@@ -3597,4 +3348,3 @@ footer .row {
 }
 
 
-/*# sourceMappingURL=main.css.map */
