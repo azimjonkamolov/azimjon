@@ -1,19 +1,7 @@
-
-/* ===================================================================
- * # imports 
- *
- * ------------------------------------------------------------------- */
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
 
-
-/* ===================================================================
- * # normalize
- * normalize.css v5.0.0 | MIT License | 
- * github.com/necolas/normalize.css
- *
- * ------------------------------------------------------------------- */
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -255,10 +243,6 @@ template {
 }
 
 
-/* ===================================================================
- * # basic/base setup styles
- *
- * ------------------------------------------------------------------- */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -287,9 +271,6 @@ button {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Media
- * ------------------------------------------------------------------- */
 img,
 video {
     max-width: 100%;
@@ -297,9 +278,6 @@ video {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Typography resets 
- * ------------------------------------------------------------------- */
 div,
 dl,
 dt,
@@ -364,9 +342,6 @@ li {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## links 
- * ------------------------------------------------------------------- */
 a {
     text-decoration: none;
     line-height: inherit;
@@ -377,9 +352,6 @@ a img {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## inputs 
- * ------------------------------------------------------------------- */
 fieldset {
     margin: 0;
     padding: 0;
@@ -401,10 +373,6 @@ textarea {
 }
 
 
-/* ===================================================================
- * # grid
- *
- * ------------------------------------------------------------------- */
 .row {
     width: 94%;
     max-width: 1200px;
@@ -425,8 +393,6 @@ textarea {
 }
 
 
-/* column blocks
- * -------------------------------------- */
 [class*="col-"] {
     float: left;
     padding: 0 20px;
@@ -437,8 +403,6 @@ textarea {
 }
 
 
-/* column width classes 
- * -------------------------------------- */
 .col-one {
     width: 8.33333%;
 }
@@ -502,9 +466,7 @@ textarea {
   font-size: 20px;
 
 }
-/* ------------------------------------------------------------------- 
- * ## medium size devices
- * ------------------------------------------------------------------- */
+
 @media only screen and (max-width: 1200px) {
     .row .row {
         margin-left: -15px;
@@ -560,9 +522,6 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## tablets
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
     .row {
         width: 90%;
@@ -588,9 +547,6 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## mobile devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
     .row {
         width: auto;
@@ -625,13 +581,6 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## small mobile devices
- * ------------------------------------------------------------------- */
-
-/* stack columns on small mobile devices
- * ------------------------------------------------------------------- */
-
 @media only screen and (max-width: 400px) {
     .row .row {
         padding-left: 0;
@@ -652,13 +601,6 @@ textarea {
     }
 }
 
-
-/* ===================================================================
- * # block grids
- * ------------------------------------------------------------------- */
-
-/*   Equally-sized columns define at row level
- * ------------------------------------------------------------------- */
 [class*="block-"]:after {
     content: "";
     display: table;
@@ -686,11 +628,6 @@ textarea {
 }
 
 
-/**
- * Clearing for block grid columns. Allow columns with 
- * different heights to align properly.
- */
-
 .block-1-6 .col-block:nth-child(6n+1),
 .block-1-5 .col-block:nth-child(5n+1),
 .block-1-4 .col-block:nth-child(4n+1),
@@ -700,9 +637,6 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## medium size devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
     .block-m-1-6 .col-block {
         width: 16.66667%;
@@ -736,9 +670,6 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## tablets
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
     .block-tab-1-6 .col-block {
         width: 16.66667%;
@@ -772,9 +703,6 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## mobile devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
     .block-mob-1-6 .col-block {
         width: 16.66667%;
@@ -808,13 +736,6 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## small mobile devices
- * ------------------------------------------------------------------- */
-
-/* stack columns on small mobile devices
- * ------------------------------------------------------------------- */
-
 @media only screen and (max-width: 400px) {
     .stack .col-block {
         width: 100% !important;
@@ -826,10 +747,7 @@ textarea {
 }
 
 
-/* ===================================================================
- * # MISC
- *
- * ------------------------------------------------------------------- */
+
 .group:after {
     content: "";
     display: table;
@@ -903,8 +821,6 @@ textarea {
 }
 
 
-/*# sourceMappingURL=base.css.map */
-/*lol*/
 
 .glow {
   font-size: 50px;
@@ -915,20 +831,7 @@ textarea {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-/*.bhalf {*/
-  /*!* The image used *!*/
-  /*background-image: url("https://www.thisislove.pt/public/uploads/pages/thisislove-studio.jpg");*/
 
-  /*!* Full height *!*/
-  /*height: 100%;*/
-  /*width: 50%;*/
-
-  /*!* Center and scale the image nicely *!*/
-  /*position: absolute;*/
-  /*right: 0px;*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
-/*}*/
 .whiteit
 {
   color: white;
@@ -1041,8 +944,6 @@ input[type=text]:focus, input[type=password]:focus {
   opacity: 1;
 }
 
-/**/
-
 
 *{
   font-family: sans-serif;
@@ -1050,13 +951,6 @@ input[type=text]:focus, input[type=password]:focus {
   padding: 0;
 }
 
-/*body*/
-/*{*/
-  /*background: #333;*/
-/*}*/
-
-
-/**/
 
 .redit
 {
@@ -1068,11 +962,6 @@ input[type=text]:focus, input[type=password]:focus {
 {
     font-size: 60px;
 }
-
-
-
-
-/**/
 
 
 
