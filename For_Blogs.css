@@ -49,3 +49,21 @@
 {
   background-color: wheat;
 }
+
+.caption
+{
+    text-align: center;
+    text-decoration: none;
+}
+.btn
+{
+    width: 40%;
+    background-color: cadetblue;
+    color: black;
+    text-decoration: none;
+    font-weight: 400px;
+}
+.btn:hover
+{
+    background-color: wheat;
+}
