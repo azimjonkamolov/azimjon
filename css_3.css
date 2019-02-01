@@ -1411,11 +1411,30 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     outline: 0;
     border: none;
     /*width: 80px;*/
+    animation: mylogo 3s;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
-
+@keyframes mylogo
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80%
+    {
+        opacity: 0.5;
+        transform: translateX(10px);
+        
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 /* ------------------------------------------------------------------- 
  * ## main navigation 
  * ------------------------------------------------------------------- */
