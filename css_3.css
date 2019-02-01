@@ -1426,7 +1426,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     80%
     {
         opacity: 0.5;
-        transform: translateX(10px);
+        transform: translateX(20px);
         
     }
     100%
