@@ -988,12 +988,12 @@ input[type=text]:focus, input[type=password]:focus {
 
 .forms
 {
-    animation: Socials 5s;
+    animation: Socials 3s;
 }
 
 .emailit
 {
-    animation: EmailMove 5s;
+    animation: EmailMove 1s;
 }
 
 @keyframes Socials
