@@ -1800,8 +1800,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn:hover, 
 .home-content__buttons .btn:focus {
-    background: #FFFFFF !important;
-    color: #000000;
+/*    background: #FFFFFF !important;*/
+    color: #FFFFFF;
 }
 
 .home-social {
