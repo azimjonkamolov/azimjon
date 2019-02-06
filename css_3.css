@@ -1798,16 +1798,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-right: 0;
 }
 
-.home-content__buttons .btn:hover
-{
-    background-color: #FFFFFF !important;
-    color: black;
+.home-content__buttons .btn:focus,
+.home-content__buttons .btn:hover 
+ {
+    background: #FFFFFF !important;
+    color: #000000;
 }
-/*
-.home-content__buttons .btn:focus {
-    
-}
-*/
 
 .home-social {
     font-family: "montserrat-regular", sans-serif;
