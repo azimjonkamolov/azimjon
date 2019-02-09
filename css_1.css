@@ -955,12 +955,12 @@ input[type=text]:focus, input[type=password]:focus {
 .redit
 {
     color: red;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .size_for
 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 /* Style all font awesome icons */
