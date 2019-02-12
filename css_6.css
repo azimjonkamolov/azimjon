@@ -1,0 +1,19 @@
+.bt, .bt-d, .bt-l {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  text-align: center; }
+  .bt:hover, .bt-d:hover, .bt-l:hover {
+    background: yellow;
+    color: black; }
+
+.bt-d {
+  background: black;
+  color: white; }
+
+.bt-l {
+  background: white;
+  color: black; }
+
+/*# sourceMappingURL=css_6.css.map */

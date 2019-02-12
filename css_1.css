@@ -1026,3 +1026,9 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 
+///////////
+
+.myproimg:hover
+{
+    opacity: 0.7;
+}
