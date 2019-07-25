@@ -1023,12 +1023,9 @@ input[type=text]:focus, input[type=password]:focus {
         transform: translate(0);
     }
 }
+/*  */
 
-
-
-///////////
-
-.myproimg:hover
+.proimgstyle
 {
-    opacity: 0.7;
+    border-radius: 8px;
 }
