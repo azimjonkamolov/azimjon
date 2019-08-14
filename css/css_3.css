@@ -2579,11 +2579,29 @@ html.no-csstransitions .home-content__main {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
     /*background-color: #e6e6e6;*/
-    background-color: #cecece;
+    /* background-color: #cecece; */
     color: #757575;
     position: relative;
 }
 
+.bg-video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .6;
+    overflow: hidden;
+}
+
+.bg-video__content
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 .clients-outer {
