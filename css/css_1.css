@@ -1028,4 +1028,14 @@ input[type=text]:focus, input[type=password]:focus {
 .proimgstyle
 {
     border-radius: 8px;
+    text-align: center;
+    font-size: 40px;
 }
+
+.proimgstyle:hover
+{
+    opacity: .8;
+    color: white;
+    background-color: grey;
+}
+
