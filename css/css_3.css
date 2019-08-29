@@ -2280,6 +2280,10 @@ html.no-csstransitions .home-content__main {
     margin-top: -.6rem;
 }
 
+/* .service-icon:hover
+{
+    transform: scale(1.05) translateY(1.5rem);
+} */
 
 @media only screen and (max-width: 1200px) {
     .services-list {
