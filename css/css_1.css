@@ -1077,45 +1077,6 @@ input[type=text]:focus, input[type=password]:focus {
     color: black;
   }
 
-.u-top-margin
-{
-    margin-top: 70px;
-}
-
-.btn:link,
-.btn:visited
-{
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 15px 40px;
-        transition: all .2s;
-        border-radius: 10px;
-        display: inline-block;
-        position: relative;
-        font-size: 15px;
-        background-color: #4CAF50;
-        max-width: 50px;
-        width: 50px;
-        font-weight: 900;
-}
-
-.btn:hover
-{
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn::after
-{
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
-
-.btn:active
-{
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
 
 
 
