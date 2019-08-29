@@ -1038,3 +1038,98 @@ input[type=text]:focus, input[type=password]:focus {
     color: white;
     background-color: grey;
 }
+
+.container11 {
+    position: relative;
+  }
+  
+  .image11 {
+      border-radius: 10px;
+  }
+  
+  .overlay11 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: lightgray;
+  }
+  
+  .container11:hover .overlay11 {
+    opacity: .8;
+  }
+  
+  .icon11 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-eye {
+    color: black;
+  }
+
+.u-top-margin
+{
+    margin-top: 70px;
+}
+
+.btn:link,
+.btn:visited
+{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px 40px;
+        transition: all .2s;
+        border-radius: 10px;
+        display: inline-block;
+        position: relative;
+        font-size: 15px;
+        background-color: #4CAF50;
+        max-width: 50px;
+        width: 50px;
+        font-weight: 900;
+}
+
+.btn:hover
+{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after
+{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn:active
+{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
