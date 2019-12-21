@@ -1077,6 +1077,11 @@ input[type=text]:focus, input[type=password]:focus {
     color: black;
   }
 
+  .colblack
+  {
+      color: #000;
+      font-size: 70px;
+  }
 
 
 
