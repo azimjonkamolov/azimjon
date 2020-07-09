@@ -1,28 +1,18 @@
-﻿
-<!--
+﻿<!--
 Author: Azimjon Kamolov
 Purpose: My main page
 Contact: azimjon.6561@gmail.com
 -->
-
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head> <!-- head starts from here -->
-    
+<head>
     <meta charset="utf-8">
     <title>Azimjon Kamolov</title>
     <link rel="shortcut icon" href="img/Phoenix.png"/>
     <meta name="description" content="">
     <meta name="author" content="">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-    <!-- USED CSS FILES -->
-
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
+    <link rel="stylesheet" href="lib/devicon.css">
     <link rel="stylesheet" href="css/lightbox.min.css" />    
     <link rel="stylesheet" href="css/css_1.css">
     <link rel="stylesheet" href="css/css_2.css">
@@ -34,69 +24,51 @@ Contact: azimjon.6561@gmail.com
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/css_6.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-
     <script>
         $(document).on("click","#unfinished",function(){
             alert("This content has not been accomplished yet.");
-           });
+        });
     </script>
-
-
     <script src="js/js_1.js"></script>
     <script src="js/js_2.js"></script>
     <link rel="stylesheet" href="js/js_c.js">
-
-</head>  <!-- head ends here -->
-
-
-<body id="top">  <!-- body starts from here -->
-        
-        <header class="s-header">    <!-- header starts from here -->
-
-            <div class="header-logo">
-                <a class="site-logo" href="https://www.azimkamol.tk/">
-                    <img src="img/Phoenix.png" width="100">
-                </a>
-            </div>
-    
-            <nav class="header-nav">
-                    <a href="#0" class="header-nav__close" title="close"><span></span></a>
-                <div class="header-nav__content">
-                    <h3>More</h3>
-    
-                    <ul class="header-nav__list">
-                        <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                        <li><a class="smoothscroll"  href="#projects" title="projects">Projects</a></li>
-                        <li><a class="smoothscroll"  href="#blogs" title="hobbies">Reasons</a></li>
-                        <li><a class="smoothscroll"  href="#contacts" title="contacts">Contacts</a></li>
-                       <li><a href="https://drive.google.com/uc?export=download&id=1LKHl0rrlcZY_ripa5ngAk6gYsh_YaKXy" title="resume" target="_blank">Resume</a></li>
-                    </ul>
-    
-                    <p style="text-align: justify">
-                      Beautiful is better than ugly.
-                      Explicit is better than implicit.
-                      Simple is better than complex.
-                      Complex is better than complicated.
-                      <br>    
-                      <i>Readability counts.</i>
-                    </p>
-    
-                </div>
-    
-            </nav>
-    
-            <a class="header-menu-toggle" href="#0">
-                <span class="header-menu-text">Menu</span>
-                <span class="header-menu-icon"></span>
+</head>
+<body id="top">
+    <header class="s-header">
+        <div class="header-logo">
+            <a class="site-logo" href="https://www.azimkamol.tk/">
+                <img src="img/Phoenix.png" width="100">
             </a>
-
-        </header>    <!-- header ends here -->
-
+        </div>
+        <nav class="header-nav">
+                <a href="#0" class="header-nav__close" title="close"><span></span></a>
+            <div class="header-nav__content">
+                <h3>More</h3>
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#projects" title="projects">Projects</a></li>
+                    <li><a class="smoothscroll"  href="#blogs" title="hobbies">Reasons</a></li>
+                    <li><a class="smoothscroll"  href="#contacts" title="contacts">Contacts</a></li>
+                    <!-- <li><a href="https://drive.google.com/uc?export=download&id=1LKHl0rrlcZY_ripa5ngAk6gYsh_YaKXy" title="resume" target="_blank">Resume</a></li> -->
+                </ul>
+                <p style="text-align: justify">
+                    Beautiful is better than ugly.
+                    Explicit is better than implicit.
+                    Simple is better than complex.
+                    Complex is better than complicated.
+                    <br>    
+                    <i>Readability counts.</i>
+                </p>
+            </div>
+        </nav>
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+    </header>
     <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="img/wallpaper.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>    <!-- home starts from here -->
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
-
         <div class="home-content">
             <div class="row home-content__main">
                 <h3>Author:</h3>
@@ -113,36 +85,33 @@ Contact: azimjon.6561@gmail.com
             </div>
             <div class="home-content__line"></div>
         </div>
-    </section>  <!-- home ends here here -->
-
+    </section>
     <section id="projects" class="s-clients">
-
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h1 class="display-2">Technological Skills & Projects</h1>
                 <h5 class="subhead">I always enjoy learning new things. Especially the technologies that make your company special.</h5>
             </div>
         </div>
-
         <div class="row clients-outer" data-aos="fade-up">
             <div class="col-full">
                 <div class="clients">
-                    <a class="clients__slide"><img title="AWS" src="img/aws.png" /></a>
-                    <a class="clients__slide"><img title="Linux" src="img/Linux.png" /></a>
-                    <a class="clients__slide"><img title="Docker" src="img/doc.png" /></a>
-                    <a class="clients__slide"><img title="SQL" src="img/SQL.png" /></a>
-                    <a class="clients__slide"><img title="MYSQL" src="img/M.png" /></a>
-                    <a class="clients__slide"><img title="PHP" src="img/PHP.png" /></a>
-                    <a class="clients__slide"><img title="Python & Django" src="img/P.png" /></a>
-                    <a class="clients__slide"><img title="JavaScript" src="img/js1.jpg" /></a>
-		            <a class="clients__slide"><img title="Laravel" src="img/LA.png" /></a>
-                    <a class="clients__slide"><img title="Git" src="img/G.png" /></a>
+                    <a class="clients__slide"><img title="Linux" src="icons/linux.png" /></a>
+                    <a class="clients__slide"><img title="Apache" src="icons/apache.png" /></a>
+                    <a class="clients__slide"><img title="MySQL" src="icons/mysql.png" /></a>
+                    <a class="clients__slide"><img title="PHP" src="icons/php.png" /></a>
+                    <a class="clients__slide"><img title="Python" src="icons/p.png" /></a>
+                    <a class="clients__slide"><img title="JavaScript" src="icons/j.png" /></a>
+                    <!-- <a class="clients__slide"><img title="Vuejs" src="icons/v.png" /></a>
+                    <a class="clients__slide"><img title="Django" src="icons/d.png" /></a>
+                    <a class="clients__slide"><img title="Django" src="icons/laravel.png" /></a>
+                    <a class="clients__slide"><img title="Django" src="icons/wordpress.png" /></a> -->
+                    <a class="clients__slide"><img title="Django" src="icons/css.png" /></a>
+                    <a class="clients__slide"><img title="Django" src="icons/html.png" /></a>
                 </div>
             </div>
         </div>
-
         <div class="row services-list block-1-2 block-tab-full">
-
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="hold_pos">
                     <div class="text_pos"><i class="colblack">PHP</i></div>
@@ -151,8 +120,6 @@ Contact: azimjon.6561@gmail.com
                     </div>
                 </div>  
             </div>
-
-           
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="hold_pos">
                     <div class="text_pos"><i class="colblack">PHP</i></div>
@@ -162,7 +129,6 @@ Contact: azimjon.6561@gmail.com
                     </div>
                 </div>
             </div>
-
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="hold_pos">
                     <div class="text_pos"><i class="colblack">Laravel</i></div>
@@ -172,7 +138,6 @@ Contact: azimjon.6561@gmail.com
                     </div>
                 </div>
             </div>
-
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="hold_pos">
                     <div class="text_pos"><i class="colblack">Laravel</i></div>
@@ -182,7 +147,6 @@ Contact: azimjon.6561@gmail.com
                     </div>
                 </div>
             </div>
-
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="hold_pos">
                     <div class="text_pos"><i class="colblack">PHP</i></div>
@@ -192,7 +156,6 @@ Contact: azimjon.6561@gmail.com
                     </div>
                 </div>
             </div>
-
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="hold_pos">
                     <div class="text_pos"><i class="colblack">PHP</i></div>
@@ -202,68 +165,16 @@ Contact: azimjon.6561@gmail.com
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
-
         <section id='blogs' class="s-services">
-
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
                 <h1 class="display-2">Why work with me?</h1>
                 <h3 class="subhead">There are many advantages to working with me. Here are a few:</h3>
             </div>
         </div>
-
         <div class="row services-list block-1-2 block-tab-full">
-           
-           <!-- <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                   <br>
-                    <a href="#"><img src="img/PP.png"></a>
-                </div>
-            </div>
-            
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                <a href="#"><img src="img/PS.png"></a>    
-                </div>
-            </div> -->
-   
-             <!-- <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="fas fa-book-open"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2"><a href="#">Books</a></h3>
-                    <p style="text-align: justify">
-                        “A great book should leave you with many experiences, and slightly exhausted at the end. You live several lives while reading.” ― William Styron
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="fas fa-globe"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2"><a href="#">Internet of Things</a></h3>
-                    <p style="text-align: justify">
-                       “And just like any company that blissfully ignored the Internet at the turn of the century, the ones that dismiss the Internet of Things risk getting left behind.” — Jared Newman
-
-                    </p>
-                </div>
-            </div> -->
-
-            <!-- <div class="col-block service-item" data-aos="fade-up">
-                <div style="text-align: center;">
-                    <i class="fas fa-code fa-3x" style="color: #5AA3B0;"></i>
-                    <h3>Passionate about development</h3>
-                    <p>Big believer in the fact that the greatest work is done by passionate people.</p>
-                </div> 
-            </div> -->
-
             <div class="col-block service-item" data-aos="fade-up">
                 <div style="text-align: center;">
                     <i class="fas fa-users fa-3x" style="color: #5AA3B0;"></i>
@@ -271,7 +182,6 @@ Contact: azimjon.6561@gmail.com
                     <p>Always excited to learn new things. The most valuable thing I can provide to your company is the ability to be molded to your stack.</p>
                 </div> 
             </div>
-
             <div class="col-block service-item" data-aos="fade-up">
                 <div style="text-align: center;">
                     <i class="fas fa-code fa-3x" style="color: #5AA3B0;"></i>
@@ -279,10 +189,7 @@ Contact: azimjon.6561@gmail.com
                     <p>Confident in my ability to learn something new and put it into production. Thrive in fast-paced and competitive environments.</p>
                 </div> 
             </div>
-
-
         </div>
-        
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <div class="location__button u-margin-top-4">
@@ -290,66 +197,47 @@ Contact: azimjon.6561@gmail.com
                 </div>
             </div>
         </div>
-
     </section>
-    
     <footer id="contacts">
-
         <div class="row footer-main">
 <!--                <div class="footer-logo"></div>-->
             <div class="col-six tab-full left footer-desc">
-
                 <h4>About me</h4>
                 My name is Azimjon Kamolov, and I am a full stack developer.
                 My motto: “People will forget what you said. They will forget what you did. But they will never forget how you made them feel.”
-   
             </div>
-
             <div class="col-six tab-full right footer-subscribe">
-
                 <h4>Social media</h4>
-                <p>“Talk is cheap. Show me the code.”<br>
-                      The codes related to Web are in my Github.<br>
-                      The codes related to Software are in my Gitlab.</p>
-                
-        </div> <!-- end footer-main -->
-
+                <p>
+                    “Talk is cheap. Show me the code.”<br>
+                     The codes related to Web are in my Github.<br>
+                     The codes related to Software are in my Gitlab.
+                </p> 
+        </div>
         <div class="row footer-bottom">
-
             <div class="col-twelve">
-               
                 <div class="copyright">
-                    
                     <form id="mc-form" class="group forms" novalidate="true">
-                        <!-- <h4>Feel free to contact me:</h4> -->
-                        <!-- <a href="https://github.com/mynameisone"><i class="fab fa-github"></i></a> -->
-                        <!--<a href="https://gitlab.com/Dpython"><i class="fab fa-gitlab"></i></a>-->
-                        <!-- <a href="https://www.linkedin.com/in/azimjon-kamolov-218011157"><i class="fab fa-linkedin"></i></a> -->
-
-                        <!-- <a href="mailto:azimjonkamolovuz@gmail.com">azimjonkamolovuz@gmail.com</a> -->
-
+                        <h4>Feel free to contact me:</h4>
+                        <a href="https://github.com/azimjonkamolov"><img style="width: 50px; height: 50px;" src="icons/github.png" alt=""></a>
+                        <a href="https://www.hackerrank.com/azimjonkamolov"><img style="width: 50px; height: 50px;" src="icons/hackerrank.png" alt=""></a>
+                        <br>
+                        <a href="mailto:azimjonkamolovuz@gmail.com">azimjonkamolovuz@gmail.com</a>
                     </form>
                     <span>© Copyright 2018 |</span> 
-                    <span><a href="index.html"> Azimjon Kamolov</a></span>
-                    </div>	
+                    <span><a href="index.html"> Azimjon Kamolov</a></span>	
                 </div>
             </div>
-
         </div>
-
     </footer> 
-
     <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">
-
             <div class="pswp__container">
                 <div class="pswp__item"></div>
                 <div class="pswp__item"></div>
                 <div class="pswp__item"></div>
             </div>
-
             <div class="pswp__ui pswp__ui--hidden">
                 <div class="pswp__top-bar">
                     <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
@@ -371,11 +259,8 @@ Contact: azimjon.6561@gmail.com
                     <div class="pswp__caption__center"></div>
                 </div>
             </div>
-
         </div>
-
     </div> 
-
     <div id="preloader">
         <div id="loader">
             <div class="line-scale-pulse-out">
@@ -387,22 +272,56 @@ Contact: azimjon.6561@gmail.com
             </div>
         </div>
     </div>
-    
-
     <script>
         $(document).on("click","#unfinished",function(){
             alert("This content has not been accomplished yet.");
            });
     </script>
-
-
-    <!-- Java Script
-    ================================================== -->
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/js_d1.js"></script>
     <script src="js/js_d2.js"></script>
     <script src="js/js_d3.js"></script>
-
-</body>  <!-- head ends here -->
-
+</body>
 </html>
+
+
+           <!-- <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                   <br>
+                    <a href="#"><img src="img/PP.png"></a>
+                </div>
+            </div>
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                <a href="#"><img src="img/PS.png"></a>    
+                </div>
+            </div> -->
+             <!-- <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2"><a href="#">Books</a></h3>
+                    <p style="text-align: justify">
+                        “A great book should leave you with many experiences, and slightly exhausted at the end. You live several lives while reading.” ― William Styron
+                    </p>
+                </div>
+            </div>
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2"><a href="#">Internet of Things</a></h3>
+                    <p style="text-align: justify">
+                       “And just like any company that blissfully ignored the Internet at the turn of the century, the ones that dismiss the Internet of Things risk getting left behind.” — Jared Newman
+                    </p>
+                </div>
+            </div> -->
+            <!-- <div class="col-block service-item" data-aos="fade-up">
+                <div style="text-align: center;">
+                    <i class="fas fa-code fa-3x" style="color: #5AA3B0;"></i>
+                    <h3>Passionate about development</h3>
+                    <p>Big believer in the fact that the greatest work is done by passionate people.</p>
+                </div> 
+            </div> -->
