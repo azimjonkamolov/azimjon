@@ -26,6 +26,7 @@ Contact: azimjon.6561@gmail.com
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="top">
+    <a href="#" onclick="topMove" id="gotoTop" title="Go to top">Top</a>
     <header class="s-header">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
@@ -37,10 +38,10 @@ Contact: azimjon.6561@gmail.com
             <div class="header-nav__content">
                 <h3>More</h3>
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#projects" title="projects">Projects</a></li>
-                    <li><a class="smoothscroll"  href="#blogs" title="hobbies">Reasons</a></li>
-                    <li><a class="smoothscroll"  href="#contacts" title="contacts">Contacts</a></li>
+                    <li class="current"><a href="#home" title="home">Home</a></li>
+                    <li><a href="#projects" title="projects">Projects</a></li>
+                    <li><a href="#blogs" title="hobbies">Reasons</a></li>
+                    <li><a href="#contacts" title="contacts">Contacts</a></li>
                     <!-- <li><a href="https://drive.google.com/uc?export=download&id=1LKHl0rrlcZY_ripa5ngAk6gYsh_YaKXy" title="resume" target="_blank">Resume</a></li> -->
                 </ul>
                 <p style="text-align: justify">
@@ -67,10 +68,10 @@ Contact: azimjon.6561@gmail.com
                 <h1 class="size_for">Azimjon <span class="redit">Kamolov</span></h1>
                   <br>
                 <div class="home-content__buttons">
-                    <a href="#projects" class="smoothscroll btn btn--stroke">
+                    <a href="#projects" class="btn btn--stroke">
                         projects
                     </a>
-                    <a href="#contacts" class="smoothscroll btn btn--stroke">
+                    <a href="#contacts" class="btn btn--stroke">
                         contacts
                     </a>
                 </div>
@@ -141,7 +142,7 @@ Contact: azimjon.6561@gmail.com
                     </div>
                 </div>
             </div>
-            <div class="col-block service-item" data-aos="fade-up">
+            <!-- <div class="col-block service-item" data-aos="fade-up">
                 <div class="hold_pos">
                     <div class="text_pos"><i class="colblack">PHP</i></div>
                     <div class="project_item">
@@ -158,7 +159,7 @@ Contact: azimjon.6561@gmail.com
                         <div class="thumb_title"><i></i></div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
         <section id='blogs' class="s-services">
@@ -194,8 +195,8 @@ Contact: azimjon.6561@gmail.com
     </section>
     <footer id="contacts">
         <div class="row footer-main">
-<!--                <div class="footer-logo"></div>-->
-            <div class="col-six tab-full left footer-desc">
+               <!-- <div class="footer-logo"></div>-->
+            <!-- <div class="col-six tab-full left footer-desc">
                 <h4>About me</h4>
                 My name is Azimjon Kamolov, and I am a full stack developer.
                 My motto: “People will forget what you said. They will forget what you did. But they will never forget how you made them feel.”
@@ -203,11 +204,8 @@ Contact: azimjon.6561@gmail.com
             <div class="col-six tab-full right footer-subscribe">
                 <h4>Social media</h4>
                 <p>
-                    “Talk is cheap. Show me the code.”<br>
-                     The codes related to Web are in my Github.<br>
-                     The codes related to Software are in my Gitlab.
                 </p> 
-            </div>
+            </div> -->
         <div class="row footer-bottom">
             <div class="col-twelve">
                 <div class="copyright">
@@ -268,11 +266,6 @@ Contact: azimjon.6561@gmail.com
             </div>
         </div>
     </div>
-    <script>
-        $(document).on("click","#unfinished",function(){
-            alert("This content has not been accomplished yet.");
-        });
-    </script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/js_d1.js"></script>
     <script src="js/js_d2.js"></script>
@@ -284,7 +277,8 @@ Contact: azimjon.6561@gmail.com
     </script>
     <script src="js/js_1.js"></script>
     <script src="js/js_2.js"></script>
-    <link rel="stylesheet" href="js/js_c.js">    
+    <link rel="stylesheet" href="js/js_c.js">
+    <script src="js/topmove.js"></script>    
 </body>
 </html>
 
