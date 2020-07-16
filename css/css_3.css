@@ -2666,6 +2666,14 @@ html.no-csstransitions .home-content__main {
     opacity: 1;
 }
 
+.books__slide {
+    display: block;
+    padding: 1.5rem 2.8rem;
+}
+.books__slide:hover, .books__slide:focus {
+    opacity: 0.8;
+}
+
 
 .clients-testimonials {
     margin-top: 4.2rem;
