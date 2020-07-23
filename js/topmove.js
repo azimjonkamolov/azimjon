@@ -12,7 +12,7 @@ function topFunction() {
 	$('html, body').animate({scrollTop:0}, 'slow');
 }
 var timeOnEachText1 = 2000; // Milliseconds to spend on each before moving to next
-var text1 = ['Azimjon', 'Problem', 'Web'];
+var text1 = [' Azimjon ', ' Problem ', 'Web'];
 var counter1 = 0;
 var elem1 = document.getElementById("fadeOne");
 function changeOne() {
@@ -25,7 +25,7 @@ function changeOne() {
 changeOne()
 
 var timeOnEachText2 = 2000; // Milliseconds to spend on each before moving to next
-var text2 = ['Kamolov', 'Solver', 'Developer'];
+var text2 = ['Kamolov', ' Solver ', 'Developer'];
 var counter2 = 0;
 var elem2 = document.getElementById("fadeTwo");
 function changeTwo() {

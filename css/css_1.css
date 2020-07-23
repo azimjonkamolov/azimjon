@@ -964,6 +964,27 @@ input[type=text]:focus, input[type=password]:focus {
     font-size: 50px;
 }
 
+.site-logo_img
+{
+    width: 100px;
+}
+
+@media (max-width: 600px)
+{
+    .size_for
+    {
+        font-size: 60px;
+    }
+    .redit
+    {
+        color: red;
+        font-size: 60px;
+    }
+    .site-logo_img{
+        width: 80px;
+    }
+}
+
 /* Style all font awesome icons */
 .fab {
     padding: 20px;
