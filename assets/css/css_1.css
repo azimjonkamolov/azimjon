@@ -1,7 +1,6 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
-
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -9,11 +8,9 @@ html {
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
 }
-
 body {
     margin: 0;
 }
-
 article,
 aside,
 footer,
@@ -1385,7 +1382,9 @@ input[type=text]:focus, input[type=password]:focus {
         font-size: 18px;
     }
 }
-
+.cursor_over{
+    cursor: pointer;
+}
 
 
 
