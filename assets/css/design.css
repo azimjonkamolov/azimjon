@@ -9,6 +9,10 @@ html {
     }
 }
 
+.mb-15{
+    margin-bottom: 15px;
+}
+
 html, body {
     height: 100%;
 }
@@ -478,9 +482,9 @@ form,
     display: table;
 }
 
-.no-js #preloader, .oldie #preloader {
+/* .no-js #preloader, .oldie #preloader {
     display: none;
-}
+} */
 
 #loader {
     display: table-cell;
@@ -1456,7 +1460,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
@@ -1738,10 +1742,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 100%;
     opacity: .6;
     background-color: #000000;
-}
-
-.no-js .s-home {
-    background: #000000;
 }
 
 .home-content {
