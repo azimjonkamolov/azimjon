@@ -19,23 +19,6 @@ Contact: azimjon.6561@gmail.com
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/design.css">
     <link rel="stylesheet" href="assets/js/jquery.min.js">
-    <style>
-        #btn__share{
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background: #33ddff;
-  box-sizing: border-box;
-  padding: 10px;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  font-weight: blod;
-  cursor: poniter;
-  box-shadow: 3px 3px 3px #ccc;
-}
-    </style>
 </head>
 <body id="top">
     <a href="#" onclick="topMove" id="gotoTop" title="Go to top">Top</a>
@@ -213,10 +196,6 @@ Contact: azimjon.6561@gmail.com
                         <a href="https://stackoverflow.com/users/12543405/azimjon-kamolov?tab=profile" target="_blank"><img style="width: 50px; height: 50px;" src="assets/img/icons/stackoverflow.png" alt=""></a>
                         <a href="https://www.facebook.com/azimjonkamolovshow" class="mb-15" target="_blank"><img style="width: 50px; height: 50px;" src="assets/img/icons/facebook.png" alt=""></a>
                         <br>
-                        <section>
-                            <a href="https://feiqa.xgqfrms.xyz/index.html"></a>
-                        </section>
-                        <button id="btn__share">click share</button>
                         <a href="mailto:azimjonkamolovuz@gmail.com" class="mb-15">azimjonkamolovuz@gmail.com</a>
                     </form>
                     <span>© Copyright 2021 |</span> 
@@ -227,34 +206,5 @@ Contact: azimjon.6561@gmail.com
     </footer> 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/extra.js"></script>
-    <script>
-        const shareButton = document.querySelector(`#btn__share`);
-
-if (navigator.share) {
-  // 支持
-  shareButton.style.color = "green";
-  // shareButton.setAttribute(`style`, `color: green;`);
-  shareButton.removeAttribute(`disabled`);
-} else {
-  // 不支持
-  shareButton.setAttribute(`style`, `color: red;`);
-  shareButton.setAttribute(`disabled`, true);
-  alert(`not support web share api`);
-}
-
-shareButton.addEventListener("click", async () => {
-  try {
-    await navigator.share({
-      title: "CDN",
-      url: "https://dary",
-    });
-    console.log("Data was shared successfully");
-    alert(`support web share api`);
-  } catch (err) {
-    console.error("Share failed:", err.message);
-    // alert(`not support web share api`);
-  }
-});
-    </script>
 </body>
 </html>
