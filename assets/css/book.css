@@ -156,9 +156,9 @@ html {
     margin-bottom: 10px;
   }
   
-  a {
+  /* a {
     text-decoration: underline;
-  }
+  } */
   
   .scene {
     display: -webkit-box;
