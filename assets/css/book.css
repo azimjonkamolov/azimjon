@@ -576,7 +576,9 @@ html {
     background-color: #fff;
     box-shadow: inset 0 0 26px 2px #d8cccc, 1px 1px 13px 0 rgba(34, 27, 20, .81);
   }
-  
+  .about_me{
+      display: none;
+  }
   @media (max-width: 991px) {
     .scene {
       height: 56vw;
@@ -615,6 +617,8 @@ html {
   }
   
   @media (max-width: 767px) {
+    .scene{display: none;}
+    .about_me{display: block;}
     .book-wrap {
       width: 80vw;
       margin-bottom: 2vw;
