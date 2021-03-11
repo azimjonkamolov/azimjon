@@ -918,6 +918,10 @@ input[type=text]:focus, input[type=password]:focus {
   color: #000000 !important;
   z-index: 10;
 }
+.image__in__book{
+    text-align: center; 
+    margin-top: 30px;
+}
 
 .img-here
 {
