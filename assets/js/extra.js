@@ -732,3 +732,9 @@ window.onload = function () {
     loop();
     setInterval(loop, 1000 / 60);
   };
+
+
+
+function funAlert(){
+    alert("Not hosted!");
+}

@@ -923,6 +923,7 @@ input[type=text]:focus, input[type=password]:focus {
 {
     border-radius: 10px;
     position: relative;
+    cursor: pointer;
 }
 
 .thumb_title {
