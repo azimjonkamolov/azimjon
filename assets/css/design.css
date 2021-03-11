@@ -1181,8 +1181,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-medium", sans-serif;
     font-size: 5.2rem;
     line-height: 1.255;
-    color: #ffffff;
     margin-top: 0;
+}
+
+.display-2--dark {
+    color: #000000;
 }
 
 .display-2--light {
