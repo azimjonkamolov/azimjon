@@ -922,7 +922,11 @@ input[type=text]:focus, input[type=password]:focus {
     text-align: center; 
     margin-top: 30px;
 }
-
+#canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 .img-here
 {
     border-radius: 10px;
