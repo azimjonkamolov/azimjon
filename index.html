@@ -1,293 +1,217 @@
-﻿<!--
-azimjonkamolov
-Author: Azimjon Kamolov
-Purpose: My main page
-Contact: azimjon.6561@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azimjon Kamolov | azimjonkamolov</title>
-    <link rel="shortcut icon" href="assets/img/phoenix.png"/>
-    <meta name="description" content="This is my portfolio websitea, here some skills and projects I have, are represented and the links to my social media accounts such as Github and Medium accounts can be found.">
-    <meta name="author" content="Azimjon Kamolov">
-    <meta name="robots" content="index, follow" />
-    <meta name="keywords" content="azimjonkamolov, Azimjon Kamolov, Azimjon Kamolov's Portfolio, Projects, LAMP stack, PHP, WordPress, Laravel">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/design.css">
-    <link rel="stylesheet" href="assets/css/book.css">
-    <link rel="stylesheet" href="assets/js/jquery.min.js">
-    <script>
-        window.requestAnimFrame = (function() {
-            return (
-                window.requestAnimationFrame ||
-                window.webkitRequestAnimationFrame ||
-                window.mozRequestAnimationFrame ||
-                window.oRequestAnimationFrame ||
-                window.msRequestAnimationFrame ||
-                function(callback) {
-                    window.setTimeout(callback);
-                }
-            );
-        });
-        function init(elemid) {
-            let canvas = document.getElementById(elemid),
-            c = canvas.getContext("2d"),
-            w = (canvas.width = window.innerWidth),
-            h = (canvas.height = window.innerHeight);
-            c.fillStyle = "rgba(30,30,30,1)";
-            c.fillRect(0, 0, w, h);
-            return {c:c,canvas:canvas};
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
 </head>
-<body id="top">
-    <a href="#" onclick="topMove" id="gotoTop" title="Go to top">Top</a>
-    <header class="s-header">
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="assets/img/phoenix.png" class="site-logo_img">
-            </a>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>S</span>haif <span>A</span>rfan</h1></a>
         </div>
-        <nav class="header-nav">
-            <a href="#0" class="header-nav__close" title="close"><span></span></a>
-            <div class="header-nav__content">
-                <h3>More</h3>
-                <ul class="header-nav__list">
-                    <li class="current"><a href="#home" title="home">Home</a></li>
-                    <li><a href="#about" title="about">About</a></li>
-                    <li><a href="#projects" title="projects">Projects</a></li>
-                    <li><a href="#blogs" title="hobbies">Reasons</a></li>
-                    <li><a href="#contacts" title="contacts">Contacts</a></li>
-                </ul>
-                <p style="text-align: justify">You are your own worst enemy</p>
-            </div>
-        </nav>
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-    </header>
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="assets/img/wall.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>    <!-- home starts from here -->
-        <div class="overlay"></div><div class="shadow-overlay"></div>
-        <div class="home-content">
-            <div class="row home-content__main">
-                <h3>Author:</h3>
-                <h1 class="size_for mb-15">
-                    <span id="fadeOne"> &nbsp; </span>
-                    <span class="redit" id="fadeTwo"> &nbsp; </span>
-                </h1>
-                <div class="home-content__buttons">
-                    <a href="#projects" class="btn btn--stroke">projects</a>
-                    <a href="#contacts" class="btn btn--stroke">contacts</a>
-                </div>
-            </div>
-            <div class="home-content__line"></div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
         </div>
-    </section>
-    <section id='about' class="s-services">
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-2 display-2--dark">Few Things About Me</h1>
-                <h3 class="subhead">Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.</h3>
-            </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Arfan <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
         </div>
-        <div class="scene" data-aos="fade-up">
-            <div class="book-wrap">
-                <div class="left-side">
-                    <div class="book-cover-left"></div>
-                    <div class="layer1"><div class="page-left"></div></div>
-                    <div class="layer2"><div class="page-left"></div></div>
-                    <div class="layer3"><div class="page-left"></div></div>
-                    <div class="layer4"><div class="page-left"></div></div>
-                    <div class="layer-text">
-                        <div class="page-left-2">
-                            <div class="corner"></div>
-                            <div class="corner2"></div>
-                            <div class="corner-fold"></div>
-                            <div class="page-text w-richtext">
-                                <h3><strong>About</strong></h3>
-                                <h6>me <a class="underline" href="https://azimjon.netlify.app" target="_blank">Azimjon Kamolov</a></h6>
-                                <p>‍</p>
-                                <p class="intro_p">I am a LAMP stack developer who uses mostly PHP </p>
-                                <p class="intro_p">and Laravel to approach problems. My prefered area </p>
-                                <p class="intro_p">is back-end but I can do front-end too. I love </p>
-                                <p class="intro_p">to solve problems by writing a clean and reusable </p>
-                                <p class="intro_p">code for myself and for others.</p>
-                                <!-- <div class="image__in__book">
-                                    <img class="aboutPicture" src="assets/img/me.jpg" alt="My Portfolio Picture">
-                                </div>  -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="center"></div>
-                <div class="right-side">
-                    <div class="book-cover-right"></div>
-                    <div class="layer1"><div class="page-right"></div></div>
-                    <div class="layer2 right"><div class="page-right"></div></div>
-                    <div class="layer3 right"><div class="page-right"></div></div>
-                    <div class="layer4 right"><div class="page-right"></div></div>
-                    <div class="layer-text right">
-                        <div class="page-right-2">
-                            <div class="page-text w-richtext">
-                                <h3><strong>Books</strong></h3>
-                                <h6>my <a class="underline" href="https://www.goodreads.com/azimjonkamolov" target="_blank">Favourite Ones</a></h6>
-                                <p>‍</p>
-                                <p class="intro_p">Sapiens by Yuval Noah Harari</p>
-                                <p class="intro_p">Homo sapiens rules the world because it is the only animal that can believe in things that exist purely in its own imagination, such as gods, states, money and human rights.</p>
-                                <p>‍</p>
-                                <p class="intro_p">‍Homo Deus by Yuval Noah Harari</p>
-                                <p class="intro_p">Homo Deus: A Brief History of Tomorrow examines what might happen to the world when old myths are coupled with new godlike technologies, such as artificial intelligence and genetic engineering.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
         </div>
-        <div class="about_me">
-            <div class="row services-list block-1-2 block-tab-full">
-                <div class="col-block service-item" data-aos="fade-up">
-                    <div style="text-align: center;">
-                        <img class="aboutPicture" src="assets/img/me.jpg" alt="My Portfolio Picture">
-                    </div> 
-                </div>
-                <div class="col-block service-item" data-aos="fade-up">
-                    <div style="text-align: center;">
-                        <h3>Azimjon Kamolov</h3>
-                        <p>
-                            I am a LAMP stack developer who uses mostly PHP and Laravel to approach problems. 
-                            My prefered area is back-end but I can do front-end too. I love to solve problems 
-                            by writing a clean and reusable code for myself and for others. When I am not busy 
-                            with coding you can find me watching sitcoms or reading a book. Bellow You can see 
-                            my most favourite books so far:
-                        </p>
-                    </div> 
-                </div>
-            </div>
-            <div class="row clients-outer" data-aos="fade-up">
-                <div class="col-full">
-                    <div class="clients">
-                        <a class="books__slide"><img class="books__slide-img" title="Sapiens" src="assets/img/sapiens.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="Homo Deus" src="assets/img/homo_deus.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="21st Lessons" src="assets/img/21st.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="21st Lessons" src="assets/img/theprag.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="Justice" src="assets/img/justice.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="Factfulness" src="assets/img/factfulness.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="Elon Musk" src="assets/img/elon_musk.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="Four" src="assets/img/four.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="Everybody Writes" src="assets/img/everybody.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="Alchemist" src="assets/img/alchemist.jpg" /></a>
-                        <a class="books__slide"><img class="books__slide-img" title="Eat Love and Pray" src="assets/img/eat_love_pray.jpg" /></a>
-                    </div>
-                </div>
-            </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
         </div>
-    </section>
-    <section id="projects" class="s-clients" style="background-color: black !important;">
-        <canvas id="canvas"></canvas>
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-2 display-2--light">Skills & Projects</h1>
-                <h5 class="subhead">I always enjoy learning new things. Especially the technologies that make people's lives easier.</h5>
-            </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
         </div>
-        <div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-                <div class="clients">
-                    <a class="clients__slide"><img class="clients__slide-img" title="AWS" src="assets/img/icons/aws.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="Docker" src="assets/img/icons/docker.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="Linux" src="assets/img/icons/linux.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="Apache" src="assets/img/icons/apache.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="MySQL" src="assets/img/icons/mysql.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="PHP" src="assets/img/icons/php.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="Laravel" src="assets/img/icons/laravel.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="Wordpress" src="assets/img/icons/wordpress.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="JavaScript" src="assets/img/icons/j.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="jQuery" src="assets/img/icons/jquery.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="Ajax" src="assets/img/icons/ajax.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="CSS" src="assets/img/icons/css.png" /></a>
-                    <a class="clients__slide"><img class="clients__slide-img" title="HTML" src="assets/img/icons/html.png" /></a>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
         </div>
-        <div class="row services-list block-1-2 block-tab-full">
-            <div class="col-block service-item curser_over" data-aos="fade-up">
-                <div class="hold_pos">
-                    <div class="text_pos"><i class="colblack">PHP</i></div>
-                    <div class="project_item">
-                        <a href="https://github.com/azimjonkamolov/Ecom">
-                            <img src="../assets/img/p1.PNG" alt="Projects" class="img-here"/>
-                        </a>
-                    </div>
-                </div>  
-            </div>
-            <div class="col-block service-item curser_over" data-aos="fade-up">
-                <div class="hold_pos">
-                    <div class="text_pos"><i class="colblack">PHP</i></div>
-                    <div class="project_item">
-                        <a href="https://github.com/azimjonkamolov/Akloop">
-                            <img src="../assets/img/p2.PNG" alt="Projects" class="img-here"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
         </div>
-    </section>
-    <section id='blogs' class="s-services">
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-2 display-2--dark">Why work with me?</h1>
-                <h3 class="subhead">There are many advantages to working with me. Here are a few:</h3>
-            </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
         </div>
-        <div class="row services-list block-1-2 block-tab-full">
-            <div class="col-block service-item" data-aos="fade-up">
-                <div style="text-align: center;">
-                    <i class="fas fa-users fa-3x" style="color: #5AA3B0;"></i>
-                    <h3>Adaptable</h3>
-                    <p>Always excited to learn new things. The most valuable thing I can provide to your company is the ability to be molded to your stack.</p>
-                </div> 
-            </div>
-            <div class="col-block service-item" data-aos="fade-up">
-                <div style="text-align: center;">
-                    <i class="fas fa-code fa-3x" style="color: #5AA3B0;"></i>
-                    <h3>Quick learner</h3>
-                    <p>Confident in my ability to learn something new and put it into production. Thrive in fast-paced and competitive environments.</p>
-                </div> 
-            </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
         </div>
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <div class="location__button u-margin-top-4">
-                    <a href="https://github.com/azimjonkamolov" class="btnup btnup" style="background-color: #CECECE; color: #000"> &nbsp; Github &nbsp; </a>
-                </div>
-            </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
         </div>
-    </section>
-    <footer id="contacts">
-        <div class="row footer-bottom">
-            <div class="col-twelve">
-                <div class="copyright">
-                    <form id="mc-form" class="group forms" novalidate="true">
-                        <h4>Feel free to contact me:</h4>
-                        <a href="https://twitter.com/azimjonkamolov" target="_blank"><img class="contact_icons" src="assets/img/icons/twitter.png" alt=""></a>
-                        <a href="https://github.com/azimjonkamolov" target="_blank"><img class="contact_icons" src="assets/img/icons/github.png" alt=""></a>
-                        <a href="https://azimjonkamolov.medium.com" target="_blank"><img class="contact_icons" src="assets/img/icons/medium.png" alt=""></a><br>
-                        <!-- <a href="https://www.facebook.com/azimjonkamolovshow" target="_blank"><img class="contact_icons" src="assets/img/icons/facebook.png" alt=""></a> -->
-                        <a href="mailto:azimjonkamolovuz@gmail.com" class="mb-15">azimjonkamolovuz@gmail.com</a>
-                    </form>
-                    <span>© Copyright 2021 |</span> 
-                    <span><a href="index.html"> Azimjon Kamolov</a></span>	
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
         </div>
-    </footer> 
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/extra.js"></script>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 234 123 1234</h2>
+            <h2>+1 234 123 1234</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>info@gmail.com</h2>
+            <h2>abcd@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Fatikchhari, Chittagong, Bangladesh</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>S</span>haif <span>A</span>rfan</h1></div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Arfan. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
 </html>
-<!-- onclick="funAlert()" -->
