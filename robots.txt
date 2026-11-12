@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://azimjon.netlify.app/sitemap.xml
